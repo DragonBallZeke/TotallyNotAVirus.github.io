@@ -30,7 +30,7 @@
               <table>
 		<tr>
 		  <td>Blocks:</td>
-		  <td v-bind:style="{ color: getCoinColor() }">{{ notation(view.blockChain.values.blockCount) }}</td>
+		  <td v-bind:style="{ color: getCoinColor() }">{{ notation(view.blockChain.values.blockCount,  formats.notation.Binary, 2) }}</td>
 		  <td></td>
 		</tr>
 		<tr>
